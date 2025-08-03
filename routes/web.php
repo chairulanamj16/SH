@@ -8,3 +8,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ObatController::class, 'index'])->name('obat.index');
 Route::get('/obat/{obat:id}', [ObatController::class, 'edit'])->name('obat.edit');
+Route::get('/print', [ObatController::class, 'print'])->name('obat.print');

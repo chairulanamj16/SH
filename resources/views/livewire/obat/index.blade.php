@@ -42,6 +42,11 @@
                 </button>
             </div>
             <div class="col-12 col-md-8">
+                <a href="/print" class="btn btn-dark">
+                    Print
+                </a>
+                <br>
+                <br>
                 <table class="table table-bordered">
                     <thead class="thead-dark">
                         <tr>

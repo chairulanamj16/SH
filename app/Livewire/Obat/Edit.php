@@ -35,6 +35,6 @@ class Edit extends Component
         $this->item->kemasan = $this->kemasan;
         $this->item->jumlah = $this->jumlah;
         $this->item->save();
-        return redirect()->route('obat.index');
+        return redirect()->route('obat.index')->with('success', 'berhasil edit data');
     }
 }

@@ -17,4 +17,10 @@ class ObatController extends Controller
         $data['obat'] = $obat;
         return view('obat.edit', $data);
     }
+
+    public function print()
+    {
+        $data['items'] = Obat::orderBy('obat', 'ASC')->get();
+        return view('obat.print', $data);
+    }
 }
