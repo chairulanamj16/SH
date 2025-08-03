@@ -15,6 +15,6 @@ class ObatController extends Controller
     public function edit(Obat $obat)
     {
         $data['obat'] = $obat;
-        return view('obat.edit', $obat);
+        return view('obat.edit', $data);
     }
 }

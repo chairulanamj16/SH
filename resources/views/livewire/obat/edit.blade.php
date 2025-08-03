@@ -31,7 +31,7 @@
             </div>
             <br>
             <br>
-            <button class="btn btn-primary" wire:click='store'>
+            <button class="btn btn-primary" wire:click='edit'>
                 Simpan
             </button>
         </div>

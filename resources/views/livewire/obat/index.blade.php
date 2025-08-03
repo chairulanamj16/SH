@@ -1,5 +1,10 @@
 <div>
     <div class="container">
+        @if (session('success'))
+            <div class="alert alert-success" role="alert">
+                <strong>{{ session('success') }}</strong>
+            </div>
+        @endif
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="form-group">

@@ -6,5 +6,5 @@ use App\Livewire\Settings\Password;
 use App\Livewire\Settings\Profile;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [ObatController::class, 'index']);
-Route::get('/obat/{obat:id}', [ObatController::class, 'edit']);
+Route::get('/', [ObatController::class, 'index'])->name('obat.index');
+Route::get('/obat/{obat:id}', [ObatController::class, 'edit'])->name('obat.edit');
